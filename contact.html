@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- =====BOX ICONS===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/require.css" />
+    <link rel="stylesheet" href="./assets/css/contact.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <div class="preloader" data-preloader>
+      <div class="preloader-circle"></div>
+    </div>
+
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">HO.</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="./index.html" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="./index.html#about" class="nav__link">About</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="./index.html#work" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="./portfolio.html" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="./contact.html" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #CONTACT
+      -->
+
+        <section
+          class="section contact has-bg-image"
+          aria-labelledby="contact-label"
+          style="background-image: url('./assets/images/contact-bg.png')"
+        >
+          <div class="container">
+            <form action="" class="contact-form">
+              <h2 class="headline-sm" id="contact-label">Lets Chat ❤️</h2>
+
+              <p class="contact-text body-md">
+                I will love to learn about your Project.
+              </p>
+
+              <div class="wrapper">
+                <div>
+                  <label for="name" class="label">First name</label>
+
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Name *"
+                    required
+                    class="input-field"
+                  />
+                </div>
+
+                <div>
+                  <label for="email" class="label">Your Email </label>
+
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Email *"
+                    required
+                    class="input-field"
+                  />
+                </div>
+              </div>
+
+              <label for="subject" class="label">Subject</label>
+              <input
+                type="text"
+                name="subject"
+                id="subject"
+                placeholder="Subject *"
+                class="input-field"
+              />
+
+              <label for="message" class="label">Your message </label>
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Your message *"
+                required
+                class="input-field"
+              ></textarea>
+
+              <a href="#" class="btn btn-tertiary">Send Message</a>
+            </form>
+
+            <div class="contact-content">
+              <ul class="contact-list">
+                <li class="contact-item">
+                  <div
+                    class="item-icon"
+                    style="background-color: hsl(177, 39%, 72%)"
+                  >
+                    <ion-icon name="call" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div>
+                    <p class="label-lg">Whatsupp me</p>
+
+                    <a href="tel:+011236548096" class="body-lg"
+                      >+91 9876543210</a
+                    >
+                  </div>
+                </li>
+
+                <li class="contact-item">
+                  <div
+                    class="item-icon"
+                    style="background-color: hsl(41, 99%, 64%)"
+                  >
+                    <ion-icon name="mail" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div>
+                    <p class="label-lg">Mail</p>
+
+                    <a href="tel:info@domainname.com" class="body-lg"
+                      >info@domainname.com</a
+                    >
+                  </div>
+                </li>
+
+                <li class="contact-item">
+                  <div
+                    class="item-icon"
+                    style="background-color: hsl(19, 97%, 85%)"
+                  >
+                    <ion-icon name="location" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div>
+                    <p class="label-lg">My Current Location</p>
+
+                    <address class="body-lg">
+                      Malaviya National Institute of <br />Technology,Jaipur
+                    </address>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <p class="footer__title">Contact me</p>
+      <div class="footer__social" class="wrapper">
+        <a href="#" class="footer__icon"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="footer__icon"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="footer__icon"><i class="bx bxl-twitter"></i></a>
+      </div>
+      <p class="footer__copy">&#169; All rigths reserved@Himanshu</p>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

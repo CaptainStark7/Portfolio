@@ -1,0 +1,59 @@
+.l-header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: var(--z-fixed);
+  background-color: #2dd6e9;
+  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+}
+
+.nav__logo {
+  color: var(--second-color);
+}
+
+.nav__list {
+  display: flex;
+  padding-top: 0;
+}
+
+.nav__item {
+  margin-bottom: var(--mb-4);
+}
+
+.nav__item {
+  margin-left: var(--mb-6);
+  margin-bottom: 0;
+}
+
+.nav__link {
+  position: relative;
+  color: #fff;
+}
+
+.nav__link:hover {
+  position: relative;
+}
+
+.nav__link:hover::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0.18rem;
+  left: 0;
+  top: 2rem;
+  background-color: var(--first-color);
+}
+.nav__link {
+  color: var(--second-color);
+}
+
+.nav__toggle {
+  color: var(--second-color);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.nav__toggle {
+  display: none;
+}
